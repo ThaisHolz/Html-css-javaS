@@ -1,0 +1,48 @@
+*
+		{
+			margin: 0;
+			border: 0;
+			padding: 10px;
+		}
+
+		#imagem-topo
+		{
+			background-color: #e0dcd3;
+			text-align: center;
+		}
+
+		h1
+		{
+			background-color: #e0dcd3;
+			font-family: arial;
+			text-align: center;
+		}
+
+		h2,h3
+		{
+			background-color: #e0dcd3;
+			font-family: arial;
+			text-align: center;
+		}
+
+		p
+		{
+			background-color: #e0dcd3;
+			text-align: justify;
+			font-family: arial;
+			font-size: 18px;
+		}
+
+		footer
+		{
+			background-color: #e0dcd3;
+			text-align: center;
+			font-family: arial;
+			font-size: 12px;
+		}
+
+		img
+		{
+			width: 50%;
+			height: 50%;
+		}
