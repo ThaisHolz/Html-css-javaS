@@ -126,7 +126,7 @@
             }
             #formulario
             {
-                background-color: #31473a;
+                background-color: #617a6b;
                 color: #dedcd1;
                 font-family: verdana;
             }
@@ -210,7 +210,24 @@
         <section class="container" id="formulario">
             <h2>Selecione um Produto para mais informações</h2><br>
             <form action="#" method="get" target="_blank">
-                <input type="text" id="nome" name="nome" placeholder="Insira seu nome">
+                <p class="formulario-contato">
+                    <label for="nome">Nome</label><br>
+                    <input type="text" id="nome" name="nome" placeholder="Insira seu nome">
+                </p>
+                <p class="formulario-contato">
+                    <label for="nome">Contato</label><br>
+                    <input type="tel" id="tel" name="tel" placeholder="Insira seu telefone">
+                </p>
+                <p class="formulario-contato">
+                    <input type="checkbox" id="racao" name="racao" value="marcas de racao">
+                    <label for="racao">Quero saber mais sobre as marcas de ração</label><br>
+
+                    <input type="checkbox" id="pelucia" name="pelucia" value="tipos de racao">
+                    <label for="pelucia">Quero saber mais sobre as pelúcias de brinquedo</label><br>
+
+                    <input type="checkbox" id="higiene" name="higiene" value="produtos de higiene">
+                    <label for="higiene">Quero saber mais sobre os produtos de higiene</label>
+                </p>
             </form>
         </section>
         <br>
