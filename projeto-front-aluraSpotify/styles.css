@@ -5,3 +5,22 @@ body{
     h1{
         color: #fff;
     }
+
+    .sidebar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        padding: 12px;
+        width: 300px;
+    }
+
+    .sidebar_navigation{
+        background-color: #2d2c2c;
+        border-radius: 8px;
+        padding: 16px 0 0 16px;
+    }
+
+    .logo img {
+        width: 80px;
+    }
