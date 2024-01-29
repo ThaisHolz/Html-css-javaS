@@ -226,11 +226,11 @@
 
 .offer__list-item img{
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 30px;
+    bottom: 10px;
     height: auto;
     width: 107px;
-    transform: rotate(25deg) translate(18%, -2%);
+    transform: rotate(5deg) translate(18%, -2%);
 }
 
 /* CARD ARTISTA */
